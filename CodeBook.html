@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=9" >
+
+<title>CodeBook of the &ldquo;final_dataset&rdquo;</title>
+
+<style type="text/css">
+body, td {
+   font-family: sans-serif;
+   background-color: white;
+   font-size: 12px;
+   margin: 8px;
+}
+
+tt, code, pre {
+   font-family: 'DejaVu Sans Mono', 'Droid Sans Mono', 'Lucida Console', Consolas, Monaco, monospace;
+}
+
+h1 { 
+   font-size:2.2em; 
+}
+
+h2 { 
+   font-size:1.8em; 
+}
+
+h3 { 
+   font-size:1.4em; 
+}
+
+h4 { 
+   font-size:1.0em; 
+}
+
+h5 { 
+   font-size:0.9em; 
+}
+
+h6 { 
+   font-size:0.8em; 
+}
+
+a:visited {
+   color: rgb(50%, 0%, 50%);
+}
+
+pre {	
+   margin-top: 0;
+   max-width: 95%;
+   border: 1px solid #ccc;
+   white-space: pre-wrap;
+}
+
+pre code {
+   display: block; padding: 0.5em;
+}
+
+code.r, code.cpp {
+   background-color: #F8F8F8;
+}
+
+table, td, th {
+  border: none;
+}
+
+blockquote {
+   color:#666666;
+   margin:0;
+   padding-left: 1em;
+   border-left: 0.5em #EEE solid;
+}
+
+hr {
+   height: 0px;
+   border-bottom: none;
+   border-top-width: thin;
+   border-top-style: dotted;
+   border-top-color: #999999;
+}
+
+@media print {
+   * { 
+      background: transparent !important; 
+      color: black !important; 
+      filter:none !important; 
+      -ms-filter: none !important; 
+   }
+
+   body { 
+      font-size:12pt; 
+      max-width:100%; 
+   }
+       
+   a, a:visited { 
+      text-decoration: underline; 
+   }
+
+   hr { 
+      visibility: hidden;
+      page-break-before: always;
+   }
+
+   pre, blockquote { 
+      padding-right: 1em; 
+      page-break-inside: avoid; 
+   }
+
+   tr, img { 
+      page-break-inside: avoid; 
+   }
+
+   img { 
+      max-width: 100% !important; 
+   }
+
+   @page :left { 
+      margin: 15mm 20mm 15mm 10mm; 
+   }
+     
+   @page :right { 
+      margin: 15mm 10mm 15mm 20mm; 
+   }
+
+   p, h2, h3 { 
+      orphans: 3; widows: 3; 
+   }
+
+   h2, h3 { 
+      page-break-after: avoid; 
+   }
+}
+
+</style>
+
+
+
+
+
+</head>
+
+<body>
+<h1>CodeBook of the &ldquo;final_dataset&rdquo;</h1>
+
+<ul>
+<li><p>activity 18</p>
+
+<ul>
+<li>Activity Types:</li>
+<li>1 WALKING</li>
+<li>2 WALKING_UPSTAIRS</li>
+<li>3 WALKING_DOWNSTAIRS</li>
+<li>4 SITTING</li>
+<li>5 STANDING</li>
+<li>6 LAYING</li>
+</ul></li>
+<li><p>subject 2</p>
+
+<ul>
+<li>ID of paticipant</li>
+</ul></li>
+<li><p>tBodyAcc.mean&hellip;X 9</p>
+
+<ul>
+<li>Mean of time signal of body acceleration signal on X axis</li>
+</ul></li>
+<li><p>tBodyAcc.mean&hellip;Y 12</p>
+
+<ul>
+<li>Mean of time signal of body acceleration signal on Y axis</li>
+</ul></li>
+<li><p>tBodyAcc.mean&hellip;Z 11</p>
+
+<ul>
+<li>Mean of time signal of body acceleration signal on Z axis</li>
+</ul></li>
+<li><p>tGravityAcc.mean&hellip;X 10</p>
+
+<ul>
+<li>Mean of time signal of body gravity signal on X axis</li>
+</ul></li>
+<li><p>tGravityAcc.mean&hellip;Y 11</p>
+
+<ul>
+<li>Mean of time signal of body gravity signal on Y axis</li>
+</ul></li>
+<li><p>tGravityAcc.mean&hellip;Z 11</p>
+
+<ul>
+<li>Mean of time signal of body gravity signal on Z axis<br/></li>
+</ul></li>
+<li><p>tBodyAccJerk.mean&hellip;X 10</p>
+
+<ul>
+<li>Mean of time signal of body acceleration Jerk signal on X axis<br/></li>
+</ul></li>
+<li><p>tBodyAccJerk.mean&hellip;Y 13</p>
+
+<ul>
+<li>Mean of time signal of body acceleration Jerk signal on Y axis </li>
+</ul></li>
+<li><p>tBodyAccJerk.mean&hellip;Z 13</p>
+
+<ul>
+<li>Mean of time signal of body acceleration Jerk signal on Z axis </li>
+</ul></li>
+<li><p>tBodyGyro.mean&hellip;X 13</p>
+
+<ul>
+<li>Mean of time signal of body Gyro signal on X axis </li>
+</ul></li>
+<li><p>tBodyGyro.mean&hellip;Y 12</p>
+
+<ul>
+<li>Mean of time signal of body Gyro signal on Y axis </li>
+</ul></li>
+<li><p>tBodyGyro.mean&hellip;Z 12</p>
+
+<ul>
+<li>Mean of time signal of body Gyro signal on Z axis </li>
+</ul></li>
+<li><p>tBodyGyroJerk.mean&hellip;X 11</p>
+
+<ul>
+<li>Mean of time signal of body Gyro Jerk signal on X axis </li>
+</ul></li>
+<li><p>tBodyGyroJerk.mean&hellip;Y 11</p>
+
+<ul>
+<li>Mean of time signal of body Gyro Jerk signal on Y axis </li>
+</ul></li>
+<li><p>tBodyGyroJerk.mean&hellip;Z 12</p>
+
+<ul>
+<li>Mean of time signal of body Gyro Jerk signal on Z axis </li>
+</ul></li>
+<li><p>tBodyAccMag.mean&hellip;X 13</p>
+
+<ul>
+<li>Mean of time signal of magnitude of body acceleration signal</li>
+</ul></li>
+<li><p>tGravityAccMag.mean&hellip; 13</p>
+
+<ul>
+<li>Mean of time signal of magnitude of gravity acceleration signal</li>
+</ul></li>
+<li><p>tBodyAccJerkMag.mean&hellip; 12</p>
+
+<ul>
+<li>Mean of time signal of magnitude of body acceleration Jerk signal</li>
+</ul></li>
+<li><p>tBodyGyroMag.mean&hellip; 12</p>
+
+<ul>
+<li>Mean of time signal of magnitude of body Gryo signal</li>
+</ul></li>
+<li><p>tBodyGyroJerkMag.mean&hellip; 11</p>
+
+<ul>
+<li>Mean of time signal of magnitude of body Gryo Jerk signal</li>
+</ul></li>
+<li><p>fBodyAcc.mean&hellip;X 11</p>
+
+<ul>
+<li>Mean of frequency signal of body acceleration signal on X axis</li>
+</ul></li>
+<li><p>fBodyAcc.mean&hellip;Y 12</p>
+
+<ul>
+<li>Mean of frequency signal of body acceleration signal on Y axis</li>
+</ul></li>
+<li><p>fBodyAcc.mean&hellip;Z 11</p>
+
+<ul>
+<li>Mean of frequency signal of body acceleration signal on Z axis</li>
+</ul></li>
+<li><p>fBodyAccJerk.mean&hellip;X 11</p>
+
+<ul>
+<li>Mean of frequency signal of body acceleration Jerk signal on X axis</li>
+</ul></li>
+<li><p>fBodyAccJerk.mean&hellip;Y 11</p>
+
+<ul>
+<li>Mean of frequency signal of body acceleration Jerk signal on Y axis</li>
+</ul></li>
+<li><p>fBodyAccJerk.mean&hellip;Z 11</p>
+
+<ul>
+<li>Mean of frequency signal of body acceleration Jerk signal on Z axis</li>
+</ul></li>
+<li><p>fBodyGyro.mean&hellip;X 11</p>
+
+<ul>
+<li>Mean of frequency signal of body Gryo signal on X axis</li>
+</ul></li>
+<li><p>fBodyGyro.mean&hellip;Y 11</p>
+
+<ul>
+<li>Mean of frequency signal of body Gryo signal on Y axis</li>
+</ul></li>
+<li><p>fBodyGyro.mean&hellip;Z 11</p>
+
+<ul>
+<li>Mean of frequency signal of body Gryo signal on Z axis</li>
+</ul></li>
+<li><p>fBodyAccMag.mean&hellip; 11</p>
+
+<ul>
+<li>Mean of frequency signal of magnictude of body acceleration signal</li>
+</ul></li>
+<li><p>fBodyBodyAccJerkMag.mean&hellip; 11</p>
+
+<ul>
+<li>Mean of frequency signal of magnictude of body acceleration jerk signal</li>
+</ul></li>
+<li><p>fBodyBodyGyroMag.mean&hellip; 11</p>
+
+<ul>
+<li>Mean of frequency signal of magnictude of body gyro signal</li>
+</ul></li>
+<li><p>fBodyBodyGyroJerkMag.mean&hellip; 11</p>
+
+<ul>
+<li>Mean of frequency signal of magnictude of body gyro jerk signal</li>
+</ul></li>
+<li><p>tBodyAcc.std&hellip;X 11</p>
+
+<ul>
+<li>Standard deviation of time signal of body acceleration signal on X axis</li>
+</ul></li>
+<li><p>tBodyAcc.std&hellip;Y 11</p>
+
+<ul>
+<li>Standard deviation of time signal of body acceleration signal on Y axis</li>
+</ul></li>
+<li><p>tBodyAcc.std&hellip;Z 11</p>
+
+<ul>
+<li>Standard deviation of time signal of body acceleration signal on Z axis</li>
+</ul></li>
+<li><p>tGravityAcc.std&hellip;X 11</p>
+
+<ul>
+<li>Standard deviation of time signal of gravity acceleration signal on X axis</li>
+</ul></li>
+<li><p>tGravityAcc.std&hellip;Y 11</p>
+
+<ul>
+<li>Standard deviation of time signal of gravity acceleration signal on Y axis</li>
+</ul></li>
+<li><p>tGravityAcc.std&hellip;Z 11</p>
+
+<ul>
+<li>Standard deviation of time signal of gravity acceleration signal on Z axis</li>
+</ul></li>
+<li><p>tBodyAccJerk.std&hellip;X 11</p>
+
+<ul>
+<li>Standard deviation of time signal of body acceleration jerk signal on X axis</li>
+</ul></li>
+<li><p>tBodyAccJerk.std&hellip;Y 11</p>
+
+<ul>
+<li>Standard deviation of time signal of body acceleration jerk signal on Y axis</li>
+</ul></li>
+<li><p>tBodyAccJerk.std&hellip;Z 11</p>
+
+<ul>
+<li>Standard deviation of time signal of body acceleration jerk signal on Z axis</li>
+</ul></li>
+<li><p>tBodyGyro.std&hellip;X 11</p>
+
+<ul>
+<li>Standard deviation of time signal of body gyro signal on X axis</li>
+</ul></li>
+<li><p>tBodyGyro.std&hellip;Y 11</p>
+
+<ul>
+<li>Standard deviation of time signal of body gyro signal on Y axis</li>
+</ul></li>
+<li><p>tBodyGyro.std&hellip;Z 11</p>
+
+<ul>
+<li>Standard deviation of time signal of body gyro signal on Z axis</li>
+</ul></li>
+<li><p>tBodyGyroJerk.std&hellip;X 11</p>
+
+<ul>
+<li>Standard deviation of time signal of body gyro jerk signal on X axis</li>
+</ul></li>
+<li><p>tBodyGyroJerk.std&hellip;Y 11</p>
+
+<ul>
+<li>Standard deviation of time signal of body gyro jerk signal on Y axis</li>
+</ul></li>
+<li><p>tBodyGyroJerk.std&hellip;Z 11</p>
+
+<ul>
+<li>Standard deviation of time signal of body gyro jerk signal on Z axis</li>
+</ul></li>
+<li><p>tBodyAccMag.std&hellip; 11</p>
+
+<ul>
+<li>Standard deviation of time signal of magnictude of body acceleration signal</li>
+</ul></li>
+<li><p>tGravityAccMag.std&hellip; 11</p>
+
+<ul>
+<li>Standard deviation of time signal of magnictude of gravity acceleration signal</li>
+</ul></li>
+<li><p>tBodyAccJerkMag.std&hellip; 11</p>
+
+<ul>
+<li>Standard deviation of time signal of magnictude of body acceleration jerk signal</li>
+</ul></li>
+<li><p>tBodyGyroMag.std&hellip; 11</p>
+
+<ul>
+<li>Standard deviation of time signal of magnictude of body gyro signal</li>
+</ul></li>
+<li><p>tBodyGyroJerkMag.std&hellip; 11</p>
+
+<ul>
+<li>Standard deviation of time signal of magnictude of body gyro jerk signal</li>
+</ul></li>
+<li><p>fBodyAcc.std&hellip;X 11</p>
+
+<ul>
+<li>Standard deviation of frequency signal of body acceleration signal on X axis</li>
+</ul></li>
+<li><p>fBodyAcc.std&hellip;Y 11</p>
+
+<ul>
+<li>Standard deviation of frequency signal of body acceleration signal on Y axis</li>
+</ul></li>
+<li><p>fBodyAcc.std&hellip;Z 11</p>
+
+<ul>
+<li>Standard deviation of frequency signal of body acceleration signal on Z axis</li>
+</ul></li>
+<li><p>fBodyAccJerk.std&hellip;X 11</p>
+
+<ul>
+<li>Standard deviation of frequency signal of body acceleration jerk signal on X axis</li>
+</ul></li>
+<li><p>fBodyAccJerk.std&hellip;Y 11</p>
+
+<ul>
+<li>Standard deviation of frequency signal of body acceleration jerk signal on Y axis</li>
+</ul></li>
+<li><p>fBodyAccJerk.std&hellip;Z 11</p>
+
+<ul>
+<li>Standard deviation of frequency signal of body acceleration jerk signal on Z axis</li>
+</ul></li>
+<li><p>fBodyGyro.std&hellip;X 11</p>
+
+<ul>
+<li>Standard deviation of frequency signal of body gyro signal on X axis</li>
+</ul></li>
+<li><p>fBodyGyro.std&hellip;Y 11</p>
+
+<ul>
+<li>Standard deviation of frequency signal of body gyro signal on Y axis</li>
+</ul></li>
+<li><p>fBodyGyro.std&hellip;Z 11</p>
+
+<ul>
+<li>Standard deviation of frequency signal of body gyro signal on Z axis</li>
+</ul></li>
+<li><p>fBodyAccMag.std&hellip; 11</p>
+
+<ul>
+<li>Standard deviation of frequency signal of magnictude of body acceleration signal</li>
+</ul></li>
+<li><p>fBodyBodyAccJerkMag.std&hellip; 11</p>
+
+<ul>
+<li>Standard deviation of frequency signal of magnictude of body acceleration jerk signal</li>
+</ul></li>
+<li><p>fBodyBodyGyroMag.std&hellip; 11</p>
+
+<ul>
+<li>Standard deviation of frequency signal of magnictude of body gyro signal</li>
+</ul></li>
+<li><p>fBodyBodyGyroJerkMag.std&hellip; 11</p>
+
+<ul>
+<li>Standard deviation of frequency signal of magnictude of body gyro jerk signal</li>
+</ul></li>
+</ul>
+
+<p>Note: Units are canceled due to data scaling   </p>
+
+</body>
+
+</html>
+
